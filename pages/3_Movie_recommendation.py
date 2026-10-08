@@ -17,7 +17,7 @@ st.title("Movie Recommendation System")
 st.write("Content-based: top 3 actors, director, genres and keywords, ranked by TF-IDF cosine similarity.")
 
 if not os.path.exists(DATA):
-    st.error("DATA/movies_slim.csv not found. Run: python tools/make_slim_data.py <path to Data folder>")
+    st.error("DATA/movies_slim.csv not found. Run: python tools/movies_slim.py <path to Data folder>")
     st.stop()
 
 
