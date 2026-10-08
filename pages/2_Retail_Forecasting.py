@@ -11,7 +11,7 @@ st.title("Time Series Forecasting of Retail Sales")
 
 @st.cache_data
 def load():
-    df = pd.read_csv("data/retail_store_inventory.csv", parse_dates=["Date"])
+    df = pd.read_csv("DATA/retail_store_inventory.csv", parse_dates=["Date"])
     return df, df.groupby("Date")["Units Sold"].sum().asfreq("D")
 
 
