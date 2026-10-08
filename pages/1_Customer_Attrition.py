@@ -146,7 +146,8 @@ with tab1:
     ax.set_ylabel("True positive rate")
     ax.legend()
 
-    st.pyplot(fig)
+    left, _ = st.columns([1, 1])
+    left.pyplot(fig)
 
 
 with tab2:
