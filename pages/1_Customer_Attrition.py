@@ -49,7 +49,7 @@ def add_features(d):
 @st.cache_resource(show_spinner="Training models...")
 def train():
 
-    df = pd.read_csv("data/telecom_churn.csv")
+    df = pd.read_csv("DATA/telecom_churn.csv")
 
     X, y = add_features(df.drop(columns="Churn")), df["Churn"]
 
