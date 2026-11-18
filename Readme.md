@@ -8,7 +8,7 @@ Three end-to-end machine learning projects in Python, each done in a Jupyter not
 | [Time Series Forecasting of Retail Sales](#2-time-series-forecasting-of-retail-sales) | Forecasting | Statsmodels, Prophet, XGBoost, Pandas |
 | [Movie Recommendation System](#3-movie-recommendation-system) | Content-based recommendation | Scikit-learn (TF-IDF), Pandas, WordCloud |
 
-**Live demo:** _add your Streamlit link here_
+**Live demo:** https://ds-projects-03.streamlit.app/
 
 ---
 
@@ -145,4 +145,4 @@ python -m streamlit run Home.py
 ## Author
 
 **Dharmavarapu Sita Samanvitha**, B.Tech in Computer Science Engineering, KL University
-Email: samanvitha1228@gmail.com | LinkedIn: _add your profile link_
+Email: samanvitha1228@gmail.com | LinkedIn: https://www.linkedin.com/in/samanvitha-dharmavarapu-1183ba248/
